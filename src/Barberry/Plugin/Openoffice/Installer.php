@@ -30,6 +30,7 @@ class Installer implements Plugin\InterfaceInstaller
         return array(
             array(ContentType::odt(), '\Barberry\ContentType::doc()'),
             array(ContentType::odt(), '\Barberry\ContentType::pdf()'),
+            array(ContentType::odt(), '\Barberry\ContentType::txt()'),
             array(ContentType::ots(), '\Barberry\ContentType::xls()'),
             array(ContentType::ods(), '\Barberry\ContentType::xls()'),
             array(ContentType::ott(), '\Barberry\ContentType::doc()'),
